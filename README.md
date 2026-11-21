@@ -30,18 +30,18 @@ bash
 
 Test 5 checks whether the program correctly counts matches at the first and last positions, with an expected result of 2 matches.
 
-# Final Random Generation Test
-After completing the fixed-array tests, I restored the random number generation using rand() % 10.
+## Final Random Generation Test
+After completing the fixed-array tests, I restored the random number generation using `rand() % 10`.
 
-Test Information	Result
-Winning Digits	[9, 5, 7, 4, 5]
-Player Digits	[9, 2, 5, 2, 1]
-Expected Matches	[1]
-Actual Matches	[1]
-All Winning Digits Between 0 and 9	[Yes]
-Expected and Actual Results Match	[Yes]
-Final Test Result	[Pass]
-
+| Test Information | Result |
+|------------------|--------|
+| Winning Digits | [9, 5, 7, 4, 5] |
+| Player Digits | [9, 2, 5, 2, 1] |
+| Expected Matches | 1 |
+| Actual Matches | 1 |
+| All Winning Digits Between 0 and 9 | Yes |
+| Expected and Actual Results Match | Yes |
+| Final Test Result | Pass |
 I ran the program with random winning digits and entered five player digits. I checked each position in both arrays to calculate the expected number of matches. I then compared my calculated count with the program's output. All winning digits should be between 0 and 9.
 
 ## Explanation Questions
