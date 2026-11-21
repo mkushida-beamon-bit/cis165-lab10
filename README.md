@@ -18,12 +18,15 @@ bash
 ./lottery
 
 # Required Test Cases
-Test	Winning Digits	Player Digits	Expected Matches	Actual Matches	Result
-1	[7, 4, 9, 1, 3]	[4, 2, 9, 7, 3]	2	2	Pass
-2	[7, 4, 9, 1, 3]	[7, 4, 9, 1, 3]	5	5	Pass
-3	[7, 4, 9, 1, 3]	[0, 0, 0, 0, 0]	0	0	Pass
-4	[1, 1, 2, 2, 3]	[1, 2, 2, 3, 3]	3	3	Pass
-5	[2, 8, 5, 6, 9]	[2, 3, 4, 7, 9]	2	2	Pass
+## Test Results
+
+| Test | Winning Digits | Player Digits | Expected Matches | Actual Matches | Result |
+|------|----------------|--------------|-----------------|---------------|--------|
+| 1 | [7, 4, 9, 1, 3] | [4, 2, 9, 7, 3] | 2 | 2 | Pass |
+| 2 | [7, 4, 9, 1, 3] | [7, 4, 9, 1, 3] | 5 | 5 | Pass |
+| 3 | [7, 4, 9, 1, 3] | [0, 0, 0, 0, 0] | 0 | 0 | Pass |
+| 4 | [1, 1, 2, 2, 3] | [1, 2, 2, 3, 3] | 3 | 3 | Pass |
+| 5 | [2, 8, 5, 6, 9] | [2, 3, 4, 7, 9] | 2 | 2 | Pass |
 
 Test 5 checks whether the program correctly counts matches at the first and last positions, with an expected result of 2 matches.
 
